@@ -13,7 +13,7 @@ import virtual_robot.util.AngleUtils;
  * For internal use only. Represents a robot with four mechanum wheels, color sensor, four distance sensors,
  * a BNO055IMU, and a Servo-controlled arm on the back.
  */
-public class MechanumBot extends VirtualBot {
+public class MecanumBot extends VirtualBot {
 
     MotorType motorType;
     private DcMotorImpl[] motors = null;
@@ -32,8 +32,8 @@ public class MechanumBot extends VirtualBot {
     private double[][] tWR; //Transform from wheel motion to robot motion
 
 
-    public MechanumBot(VirtualRobotController controller) {
-        super(controller, "mechanum_bot.fxml");
+    public MecanumBot(VirtualRobotController controller) {
+        super(controller, "mecanum_bot.fxml");
         motors = new DcMotorImpl[]{
                 (DcMotorImpl)hardwareMap.dcMotor.get("back_left_motor"),
                 (DcMotorImpl)hardwareMap.dcMotor.get("front_left_motor"),
