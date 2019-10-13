@@ -4,6 +4,10 @@ com.qualcomm.robotcore.eventloop.opmode
 com.qualcomm.robotcore.hardware
 com.qualcomm.robotcore.util
 org.firstinspires.ftc.robotcore.external
+org.firstinspires.ftc.robotcore.external.matrices
 org.firstinspires.ftc.robotcore.external.navigation
-virtual_robot.background
+org.firstinspires.ftc.robotcore.internal.system
+org.firstinspires.ftc.teamcode
+virtual_robot.config
 virtual_robot.controller
+virtual_robot.util
